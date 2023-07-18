@@ -16,12 +16,23 @@
 This ia a MYSQL- Power BI project on sales analysis. The goal is to analyze the sales trend of the company, allowing users to understand the data and make informed decisions.
 
 ## Dataset
-Mysql database
-The dataset contains three tables.
+The dataset is a MySQL Database conatining five tables. It contains fields like market, sales quantity, customers, products, date, cost price, revenue and profit margin.
+
+## Tools used
+* MySQL
+* Power BI
+* Power BI Query Editor
 
 ## Modelling
-
+* The database contains 4 dimension tables and 1 fact table. The dimension tables are sales products, sales markets, sales customers and sales date. The fact table is sales transation.
+* The dimension tables are connected by fact tables by one to many relationship.
 <img width="686" alt="abcde" src="https://github.com/ishita9988/Sales-Analysis-Brick-Motor-Business/assets/129153274/12ac7a80-c735-487a-8110-bd8810da7e04">
+
+## Insights
+
+* The final dashboard is effective at displaying the sales trend of the company, allowing users to understand the data and make informed decisions.
+* The dashboard can help in increasing the revenue of the company.
+
 
 
 
